@@ -32,7 +32,7 @@ temperatures = [item.find(class_='temp').get_text() for item in items]
 
 weather_stuff = pd.DataFrame(
   {
-    'Period':period_names,
+  'Period':period_names,
   'Short description': short_desc,
   'Temperature': temperatures
   })
